@@ -1,16 +1,15 @@
 The MRST faultve module presented here combines a vertical equilibrium model with
-an upscaled fault leakage function (which is geomechanically constrained) to
-model large scale co2 storage simulations and undertand the impact of parameter uncertainty 
-in a rapid manner.
+an upscaled fault leakage function to model large scale co2 storage simulations 
+and undertand the impact of parameter uncertainty  in a rapid manner.
 
-Please refer to the technical report and the documents for more information
-about the modelling methods
+Please refer to the manuscript for more information about the modelling methods
+"Rapid Fault Leakage Modeling for CO2 Storage in Saline Aquifers".
+DOI - https://doi.org/10.31223/X5S12N
 
-There are 3 example simulations presented here
+There are 2 example simulations presented here
 
 - A gently sloping aquifer with a leaking fault
 - Field scale co2 storage simulation in a faulted aquifer
-- Kmeans clustering analysis workflow for field scale co2 storage simulation
 
 Make sure you register this module within your local mrstpaths. 
 One would need to type the following command in the command window.
