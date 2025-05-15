@@ -1,0 +1,27 @@
+The MRST faultve module presented here combines a vertical equilibrium model with
+an upscaled fault leakage function (which is geomechanically constrained) to
+model large scale co2 storage simulations and undertand the impact of parameter uncertainty 
+in a rapid manner.
+
+Please refer to the technical report and the documents for more information
+about the modelling methods
+
+There are 3 example simulations presented here
+
+- A gently sloping aquifer with a leaking fault
+- Field scale co2 storage simulation in a faulted aquifer
+- Kmeans clustering analysis workflow for field scale co2 storage simulation
+
+Make sure you register this module within your local mrstpaths. 
+One would need to type the following command in the command window.
+The syntax after faultve refers to the location of the faultve folder.
+Please add the corresponding folder path from your system.
+
+For windows this looks something like depending on the location of the folder:
+mrstPath register faultve C:\Users\fd85\Documents\MATLAB\mrstmodules\faultve
+
+For Mac this looks something like: 
+mrstPath register faultve ~/Sourcetree/faultve
+
+
+ 
